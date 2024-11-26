@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.Post{
+    width: 400px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+.picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    margin-right: 15px;
+}
+.detalles{
+    display: flex;
+    flex-direction: column;
+}
+.icons-left i {
+    margin-right: 7px;
+}
+
+.post-pic img {
+    display: block;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.post-content {
+    margin: 10px;
+    text-align: justify;
+}

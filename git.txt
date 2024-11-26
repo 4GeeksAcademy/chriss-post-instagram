@@ -1,0 +1,5 @@
+git add .
+
+git comit - m "mi mensaje"
+
+git push origin main
